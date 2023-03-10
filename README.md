@@ -9,6 +9,7 @@ eureka-discovery:
   + application.properties
   + @EnableEurekaServer in main class
   + localhost:8761
+  
 api-gateway:
   + port: 8989
   + dependecies:  - spring-cloud-starter-gateway
@@ -17,6 +18,7 @@ api-gateway:
   + application.properties: routes + eureka server
   + @EnableDscoveryClient in main class
   + check eureka dicovery (localhost:8761): an instance API-GATEWAY should be added
+  
 product-service: 
   + port: 9090
   + DB: h2
