@@ -25,12 +25,12 @@ public class UsersController {
 
     static Logger logger = LoggerFactory.getLogger(UsersController.class);
 
-    @PostMapping(path = "/add")
+    @PostMapping("/add")
     public ResponseEntity<UsersResponseDto> addUser(@Valid @RequestBody UsersRequestDto UsersRequestDTO) {
         return new ResponseEntity<>(usersService.saveUser(UsersRequestDTO), HttpStatus.CREATED);
     }
 
-    @PutMapping(path = "/update/{userId}")
+    @PutMapping("/update/{userId}")
     public ResponseEntity<UsersResponseDto> updateUser(@PathVariable Long userId, @Valid @RequestBody UsersRequestDto UsersRequestDTO){
         try {
             return new ResponseEntity<>(usersService.updateUser(userId, UsersRequestDTO), HttpStatus.CREATED);
