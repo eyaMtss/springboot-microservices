@@ -1,8 +1,8 @@
 package com.eyamattoussi.usersservice.mapper;
 
-import com.eyamattoussi.productservice.dto.UsersRequestDto;
-import com.eyamattoussi.productservice.dto.UsersResponseDto;
-import com.eyamattoussi.productservice.model.entity.Users;
+import com.eyamattoussi.usersservice.dto.UsersRequestDto;
+import com.eyamattoussi.usersservice.dto.UsersResponseDto;
+import com.eyamattoussi.usersservice.model.entity.Users;
 
 public interface UsersMapper {
     UsersResponseDto userToUserResponseDto(Users user);
