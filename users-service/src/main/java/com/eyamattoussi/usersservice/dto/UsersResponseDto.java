@@ -1,6 +1,6 @@
 package com.eyamattoussi.usersservice.dto;
 
-import com.eyamattoussi.productservice.model.enumeration.Gender;
+import com.eyamattoussi.usersservice.model.enumeration.Gender;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
 import jakarta.validation.constraints.Email;

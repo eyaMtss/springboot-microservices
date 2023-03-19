@@ -1,6 +1,6 @@
 package com.eyamattoussi.usersservice.model.entity;
 
-import com.eyamattoussi.productservice.model.enumeration.Gender;
+import com.eyamattoussi.usersservice.model.enumeration.Gender;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import lombok.*;

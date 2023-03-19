@@ -1,6 +1,6 @@
 package com.eyamattoussi.usersservice.dto;
 
-import com.eyamattoussi.productservice.model.enumeration.Gender;
+import com.eyamattoussi.usersservice.model.enumeration.Gender;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
 import jakarta.validation.constraints.Email;
@@ -17,6 +17,7 @@ public class UsersRequestDto {
     private String username;
     private String firstname;
     private String lastname;
+    @Email
     private String email;
     private String address;
     private Date birthdate;
