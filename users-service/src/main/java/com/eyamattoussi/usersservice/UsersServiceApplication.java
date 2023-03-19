@@ -1,4 +1,4 @@
-package com.eyamattoussi.productservice;
+package com.eyamattoussi.usersservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
