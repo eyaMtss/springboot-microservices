@@ -6,9 +6,10 @@ import com.eyamattoussi.usersservice.model.entity.Users;
 import com.eyamattoussi.usersservice.repository.UsersRepository;
 import com.eyamattoussi.usersservice.mapper.UsersMapperImpl;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class UsersServiceImpl implements UsersService {
     @Autowired
     private UsersRepository usersRepository;
