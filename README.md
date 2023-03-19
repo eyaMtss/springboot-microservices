@@ -19,12 +19,12 @@ api-gateway:
   + @EnableDscoveryClient in main class
   + check eureka dicovery (localhost:8761): an instance API-GATEWAY should be added
   
-product-service: 
+users-service: 
   + port: 9090
-  + DB: h2
-  + entity : product
+  + DB: h2: http://localhost:9090/h2
+  + entity : Users
   + repository 
   + service
   + controller
   + swagger: http://localhost:9090/swagger-ui/index.html
-  + check eureka dicovery (localhost:8761): an instance PRODUCT-SERVICE should be added 
+  + check eureka dicovery (localhost:8761): an instance USERS-SERVICE should be added 
