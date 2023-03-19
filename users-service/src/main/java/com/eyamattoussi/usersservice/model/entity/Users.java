@@ -1,4 +1,4 @@
-package com.eyamattoussi.productservice.model.entity;
+package com.eyamattoussi.usersservice.model.entity;
 
 import com.eyamattoussi.productservice.model.enumeration.Gender;
 import jakarta.persistence.*;

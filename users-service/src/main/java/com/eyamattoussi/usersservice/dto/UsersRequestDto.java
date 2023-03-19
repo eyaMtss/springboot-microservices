@@ -1,4 +1,4 @@
-package com.eyamattoussi.productservice.dto;
+package com.eyamattoussi.usersservice.dto;
 
 import com.eyamattoussi.productservice.model.enumeration.Gender;
 import jakarta.persistence.EnumType;

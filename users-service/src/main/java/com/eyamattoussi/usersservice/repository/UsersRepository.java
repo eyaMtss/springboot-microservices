@@ -1,6 +1,6 @@
-package com.eyamattoussi.productservice.repository;
+package com.eyamattoussi.usersservice.repository;
 
-import com.eyamattoussi.productservice.model.entity.Users;
+import com.eyamattoussi.usersservice.model.entity.Users;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

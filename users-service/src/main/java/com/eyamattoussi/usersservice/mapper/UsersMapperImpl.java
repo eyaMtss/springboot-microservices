@@ -1,13 +1,13 @@
-package com.eyamattoussi.productservice.mapper;
+package com.eyamattoussi.usersservice.mapper;
 
-import com.eyamattoussi.productservice.dto.UsersRequestDto;
-import com.eyamattoussi.productservice.dto.UsersResponseDto;
-import com.eyamattoussi.productservice.model.entity.Users;
-import org.apache.catalina.User;
+import com.eyamattoussi.usersservice.dto.UsersRequestDto;
+import com.eyamattoussi.usersservice.dto.UsersResponseDto;
+import com.eyamattoussi.usersservice.model.entity.Users;
+import com.eyamattoussi.usersservice.mapper.UsersMapper;
 
 public class UsersMapperImpl implements UsersMapper {
     @Override
-    public UsersResponseDto userToUserResonseDto(Users user) {
+    public UsersResponseDto userToUserResponseDto(Users user) {
         return UsersResponseDto.builder()
                 .id(user.getId())
                 .username(user.getUsername())
