@@ -1,8 +1,8 @@
 package com.eyamattoussi.usersservice.service;
 
 import java.util.List;
-import com.eyamattoussi.productservice.dto.UsersRequestDto;
-import com.eyamattoussi.productservice.dto.UsersResponseDto;
+import com.eyamattoussi.usersservice.dto.UsersRequestDto;
+import com.eyamattoussi.usersservice.dto.UsersResponseDto;
 
 public interface UsersService {
     List<UsersResponseDto> getAllUsers();
